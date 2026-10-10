@@ -1,0 +1,43 @@
+[0.015s] Invoking command in '/home/sofia/planar_robot/traj/build/traj': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sofia/ros2_ws/install/mynewpkg:/opt/ros/humble /usr/bin/cmake /home/sofia/planar_robot/traj -DCMAKE_INSTALL_PREFIX=/home/sofia/planar_robot/traj/install/traj
+[0.144s] -- The C compiler identification is GNU 11.4.0
+[0.603s] -- The CXX compiler identification is GNU 11.4.0
+[0.943s] -- Detecting C compiler ABI info
+[1.087s] -- Detecting C compiler ABI info - done
+[1.094s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.094s] -- Detecting C compile features
+[1.094s] -- Detecting C compile features - done
+[1.097s] -- Detecting CXX compiler ABI info
+[1.246s] -- Detecting CXX compiler ABI info - done
+[1.252s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.253s] -- Detecting CXX compile features
+[1.253s] -- Detecting CXX compile features - done
+[1.256s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.380s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.460s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.602s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.607s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.616s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.628s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.642s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.682s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.684s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.827s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.103s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.342s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.351s] -- Looking for pthread.h
+[6.532s] -- Looking for pthread.h - found
+[6.532s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.692s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.692s] -- Found Threads: TRUE  
+[6.747s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.918s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[6.919s]   Packages installing interfaces must include
+[6.919s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[6.919s]   package.xml
+[6.919s] Call Stack (most recent call first):
+[6.919s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[6.919s] 
+[6.919s] [0m
+[6.919s] -- Configuring incomplete, errors occurred!
+[6.919s] See also "/home/sofia/planar_robot/traj/build/traj/CMakeFiles/CMakeOutput.log".
+[6.928s] Invoked command in '/home/sofia/planar_robot/traj/build/traj' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sofia/ros2_ws/install/mynewpkg:/opt/ros/humble /usr/bin/cmake /home/sofia/planar_robot/traj -DCMAKE_INSTALL_PREFIX=/home/sofia/planar_robot/traj/install/traj

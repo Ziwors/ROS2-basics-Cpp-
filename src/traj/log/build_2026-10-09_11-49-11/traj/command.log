@@ -1,0 +1,2 @@
+Invoking command in '/home/sofia/planar_robot/traj/build/traj': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sofia/ros2_ws/install/mynewpkg:/opt/ros/humble /usr/bin/cmake /home/sofia/planar_robot/traj -DCMAKE_INSTALL_PREFIX=/home/sofia/planar_robot/traj/install/traj
+Invoked command in '/home/sofia/planar_robot/traj/build/traj' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sofia/ros2_ws/install/mynewpkg:/opt/ros/humble /usr/bin/cmake /home/sofia/planar_robot/traj -DCMAKE_INSTALL_PREFIX=/home/sofia/planar_robot/traj/install/traj
